@@ -135,22 +135,38 @@ hr {
     margin: 10px 20px;
 }
 
-.product-container img {
-    width: 25%;
+
+.products img {
+    width: 20%;
     margin: 20px 0;
 }
 
-.product-container p {
+.products p {
     margin: 15px 0;
 }
 
-.product-container a {
+.products a {
     text-align: end;
     display: block;
     margin-bottom: 10px;
     font-size: 20px;
     color: rgb(255, 113, 198);
     text-decoration: underline;
+}
+
+/******************************************* FOOTER **************************************/
+
+footer {
+    background-color: rgb(1, 6, 69);
+    text-align: center;
+}
+
+footer li {
+    padding: 20px;
+}
+
+footer a {
+    color: white;
 }
     
 
@@ -170,7 +186,7 @@ hr {
         display: flex;
     }
 
-    .logo {
+    .logo-sm {
         margin-top: 1%;
         margin-right: 2%;
     }
@@ -222,8 +238,25 @@ hr {
     .product-container {
         justify-content: space-between;
     }
-
-    .product-container img {
-        margin: 15px;
+    
+    .products p {
+        padding: 20px;
     }
+
+    .products img {
+        margin: 15px;
+        width: 35%;
+    }
+
+    /******************************************* FOOTER **************************************/
+
+    footer {
+        justify-content: space-between;
+        margin-top: 55px;
+    }
+
+    footer li {
+        padding: 35px;
+    }
+     
 }
