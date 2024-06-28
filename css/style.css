@@ -7,25 +7,20 @@
     font-family: "Exo", sans-serif;
 }
 
-.col-xs {
-    width: 30%;
+.col-fluid {
+    width: 90%;
 }
 
-.col-s {
-    width: 48%;
-}
 
 .col-m {
-    width: 78%;
+    width: 98%;
+    margin: 0 auto;
 }
 
 .col-l {
     width: 98%;
 }
 
-.col-xl {
-    width: 98%;
-}
 
 .flex-sm {
     display: flex;
@@ -45,9 +40,14 @@ header div {
     margin-top: 15px;
 }
 
-.logo {
+.logo-sm {
     width: 25px;
     height: 25px;
+}
+
+.logo-m {
+    width: 35px;
+    height: 35px;
 }
 
 .active {
@@ -87,6 +87,42 @@ nav ul li {
     text-align: center;
 }
 
+/******************************************** PREMIERE SECTION *************************************/
+
+img {
+    width: 100%;
+}
+
+.first-section, .info-container {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.logo-l {
+    width: 50%;
+    height: 20%;
+}
+
+.info-container h3{
+    margin: 20px 0;
+}
+
+.info-container p {
+    margin: 15px 0;
+}
+
+.info-container img {
+    margin-right: 5px;
+}
+
+hr {
+    margin: 30px auto;
+    height: 5px;
+    background-color: rgb(1, 6, 69);
+}
+    
+
 @media screen and (min-width: 768px){
 
     header {
@@ -119,7 +155,6 @@ nav ul li {
     /******************* NAVAR**********************/
     
     ul {
-        display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0;
@@ -131,5 +166,23 @@ nav ul li {
 
     nav a {
         padding: 25px;
+    }
+
+    /********************** FIRTS COTNAINER ******************/
+
+    .col-m {
+        width: 78%;
+    }
+
+    .info-container {
+        justify-content: space-between;
+    }
+
+    .center-l{
+        text-align: center;
+    }
+
+    .justify-center {
+        justify-content: center;
     }
 }
