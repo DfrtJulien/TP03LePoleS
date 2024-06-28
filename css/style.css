@@ -23,21 +23,26 @@
     width: 98%;
 }
 
+.col-xl {
+    width: 98%;
+}
+
 .flex-sm {
     display: flex;
     align-items: center;
 }
 
 header {
-    padding: 15px;
+    padding: 10px;
+    margin: 0 auto;
 }
 
 header h1, header p {
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 header div {
-    margin: 15px 0;
+    margin-top: 15px;
 }
 
 .logo {
@@ -55,11 +60,39 @@ header div {
     margin-left: 5px;
 }
 
+/****************************** NAVBAR *****************/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    background-color:  rgb(1, 6, 69);
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav a {
+    padding: 10px;
+}
+
+nav ul li {
+    padding: 15px;
+    text-align: center;
+}
+
 @media screen and (min-width: 768px){
 
     header {
         display: flex;
         justify-content: space-between;
+        padding: 0px 5px;
     }
 
     .col-l {
@@ -81,5 +114,22 @@ header div {
 
     header h1 {
         padding-top: 0;
+    }
+
+    /******************* NAVAR**********************/
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+
+    nav {
+        margin: 0 5px;
+    }
+
+    nav a {
+        padding: 25px;
     }
 }
