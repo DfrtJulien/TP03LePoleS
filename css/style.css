@@ -64,6 +64,9 @@ header div {
 
 a {
     text-decoration: none;
+}
+
+nav a {
     color: white;
 }
 
@@ -121,6 +124,34 @@ hr {
     height: 5px;
     background-color: rgb(1, 6, 69);
 }
+
+/********************** SECOND SECTION ******************/
+
+.second-section {
+    margin-top: 30px;
+}
+
+.product-container {
+    margin: 10px 20px;
+}
+
+.product-container img {
+    width: 25%;
+    margin: 20px 0;
+}
+
+.product-container p {
+    margin: 15px 0;
+}
+
+.product-container a {
+    text-align: end;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(255, 113, 198);
+    text-decoration: underline;
+}
     
 
 @media screen and (min-width: 768px){
@@ -168,7 +199,7 @@ hr {
         padding: 25px;
     }
 
-    /********************** FIRTS COTNAINER ******************/
+    /********************** FIRTS SECTION ******************/
 
     .col-m {
         width: 78%;
@@ -184,5 +215,15 @@ hr {
 
     .justify-center {
         justify-content: center;
+    }
+
+    /********************** SECOND SECTION ******************/
+
+    .product-container {
+        justify-content: space-between;
+    }
+
+    .product-container img {
+        margin: 15px;
     }
 }
